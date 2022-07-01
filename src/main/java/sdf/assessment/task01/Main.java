@@ -37,7 +37,7 @@ public class Main
         }
         System.out.println(template);
         
-        MailMerger processor = new MailMerger(csvPath, tmpPath);
+        MailMerger processor = new MailMerger();
         Reader r = new FileReader(csvPath);
         BufferedReader br = new BufferedReader(r);
 
@@ -48,6 +48,8 @@ public class Main
 
             data=br.readLine();
             processor.read(data);
+            System.out.println(template);
+
         }
     }
 }

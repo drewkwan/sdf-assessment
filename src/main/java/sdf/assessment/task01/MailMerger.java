@@ -18,10 +18,10 @@ public class MailMerger {
         String[] fields = data.split(",");
         String firstName = removeCommas(fields[0]);
         String lastName = removeCommas(fields[1]);
-        String address = removeCommas(fields[2]);
-        String years = removeCommas(fields[3]);
+        String location = removeCommas(fields[2]);
+        String number = removeCommas(fields[3]);
 
-        System.out.println(address + "\n\nDear " + firstName +",\n" + "Thank you for staying with us over these " + years + " years.\n\n");
+        System.out.println(location + "\n\nDear " + firstName +",\n" + "Thank you for staying with us over these " + number + " years.\n\n");
 
 
     }
