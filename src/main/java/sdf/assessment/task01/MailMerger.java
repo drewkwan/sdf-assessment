@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class DataProcessor {
+public class MailMerger {
 
     public Map<String, List<List<String>>> dataSet = new HashMap<> ();
 
