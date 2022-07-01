@@ -48,7 +48,9 @@ public class Main
 
             data=br.readLine();
             processor.read(data);
-            System.out.println(template);
+            //System.out.println(template);
+
+            
 
         }
     }
