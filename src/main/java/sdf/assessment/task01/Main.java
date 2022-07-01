@@ -48,7 +48,9 @@ public class Main
 
             data=br.readLine();
             processor.read(data);
+            processor.getDataSet();
             //System.out.println(template);
+
 
             
 

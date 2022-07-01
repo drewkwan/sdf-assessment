@@ -26,6 +26,14 @@ public class MailMerger {
 
     }
 
+    public Map<String, List<List<String>>> getDataSet() {
+        return dataSet;
+    }
+
+    public void setDataSet(Map<String, List<List<String>>> dataSet) {
+        this.dataSet = dataSet;
+    }
+
     public String removeCommas (String s) {
         return s.replaceAll(",", "");
     }
